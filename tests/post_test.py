@@ -1,13 +1,16 @@
 import requests
 import unittest
+import socket
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
 
 class TestAPI(unittest.TestCase):
     def setUp(self):
-        self.base_url = "https://172.25.0.4"
+        ip = socket.gethostbyname(str(socket.gethostname()))
+        ip = ip[:-1] + '4'
+        self.base_url = f"https://{ip}"
         self.headers = {"Content-Type": "application/json"}
         
-        
-    #test POST requests
     def test_create_entity(self):
         payload = {
             "fname": "John",
@@ -15,6 +18,7 @@ class TestAPI(unittest.TestCase):
             "phone": "+1234567890",
             "bday": "1990-01-01"
         }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
         response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
         print(response.content)
         self.assertEqual(response.status_code, 201)
@@ -26,6 +30,7 @@ class TestAPI(unittest.TestCase):
             "lname": "Doe",
             "phone": "+1234567890"
         }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
         response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
         print(response.content)
         self.assertEqual(response.status_code, 400)
@@ -37,5 +42,6 @@ class TestAPI(unittest.TestCase):
             "phone": "1234567890",
             "bday": "1990-01-01"
         }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
         response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
         self.assertEqual(response.status_code, 400)

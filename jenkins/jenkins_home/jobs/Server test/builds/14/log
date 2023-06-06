@@ -1,0 +1,234 @@
+Started by user [8mha:////4E03QvwtxqvGa5BCqDHB3alfls3sfLHSSJCl8ljOc63AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4CHUyI8vI+v6SLmcuz4T80UhDl5B2EGkPWs5qxwtvHzBAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MiD7ro/DQVsj8RGpsKlIlUzKEiQinXpqvs48bonRDeQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MmcsFAI5FsTJ3Ms05xHoSfEJtmOxZpRKAN3ZL6clqGuAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Server test
+[8mha:////4CYhWGFdkN2dxOBJGlpRzCrFQ9DFllhCAtNCZwaYz5aPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IIjckmgbm6uwonC2DJR82gkcmw7r5ivOhAUN8UXwyowAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CYJxy2/Ye3r5U8n6whnoHiKZFNwabmCYktKmfShFjDdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (GET request server test)
+[8mha:////4Naejm55+t+Wii1S15OGvIWi3OfGOJ3W+uvuwiJ5CFX2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4LmiJrTIZMLIdNzATkAsGs4sJFMIX97PA1b7Ww2F4LZ7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4Fd+gAWr4yssi9xwlCTY7Lgy5mtIoAVYn56jPGPunwSzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] warnError
+[8mha:////4K9V2aTL5uxb8UOrvxRTifcoBOQRbwXEGxrdKcrtjnpAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4HQtW+re2bOvWU3DD4EDvDoTx4KiTS52S9S5/K8EEMBEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ pytest /usr/local/tests/get_test.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.2, pytest-7.3.1, pluggy-1.0.0
+rootdir: /usr/local/tests
+collected 3 items
+
+../../../../usr/local/tests/get_test.py F..                              [100%]
+
+=================================== FAILURES ===================================
+________________________ TestAPI.test_get_error_request ________________________
+
+self = <get_test.TestAPI testMethod=test_get_error_request>
+
+    def test_get_error_request(self):
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.get(f"{self.base_url}/?id=0", headers=self.headers, verify=False)
+>       self.assertEqual(response.status_code, 404)
+E       AssertionError: 200 != 404
+
+/usr/local/tests/get_test.py:28: AssertionError
+=========================== short test summary info ============================
+FAILED ../../../../usr/local/tests/get_test.py::TestAPI::test_get_error_request - AssertionError: 200 != 404
+========================= 1 failed, 2 passed in 0.09s ==========================
+[8mha:////4G5TY6zvfbuxaT0KZQgSAQ5PDWg77sg3FGepHn70msNGAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+ERROR: GET request server test stage was unstable.
+ERROR: script returned exit code 1
+[8mha:////4E95EYHWA3rsxNfNH08kijmiukddEjvz2yb0PTijlNe9AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // warnError
+[8mha:////4D05K4L4m85Sa1rcKpmvh7CKepKCtjOfKveJvsDiDGGiAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4IuHWSUpaDoe5ttoczLAsqaUXNCqpb0RQRIOLnK9UN9cAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // script
+[8mha:////4Ma6hp8rlKIiGJzNajLIUFfjo+CB4EhWiwP1amWsEmpSAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] }
+[8mha:////4LRTVIPf08PcHCiGWbcWw5Ml3FHkjbiH+rhpk85MhrTBAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAPHYhe9AAAA[0m[Pipeline] // stage
+[8mha:////4FNKvhUTgbNp93L0m6XqJ0MYI6w3G4bFC5nYSlObw6yOAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4J7tj0lLr4OWZHHBQzS3W1zUiMs39NKFGSHBi7kamqy1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (POST request server test)
+[8mha:////4GFczjH1zVG2PROOax49lcS6ZDLNLvkrRyWQqv/O0kzDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] script
+[8mha:////4N3CePQBrcydhSzwJrLalSHttyBkNjcyriUKDIOKpTcQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4JXRAQXOjy0b7Oepc2jKq7RpJ1hc+PGXeOs2+v7GjLjGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] warnError
+[8mha:////4Meh5ibaHS2KRgBATLVMeTkoMgkj+zet5PBNCH85xQBoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4E2xjlPPZRvO5j7Q/qSXrg0vHxMqI2lOGKaO6JKrSl94AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ pytest /usr/local/tests/post_test.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.2, pytest-7.3.1, pluggy-1.0.0
+rootdir: /usr/local/tests
+collected 3 items
+
+../../../../usr/local/tests/post_test.py FFF                             [100%]
+
+=================================== FAILURES ===================================
+__________________________ TestAPI.test_create_entity __________________________
+
+self = <post_test.TestAPI testMethod=test_create_entity>
+
+    def test_create_entity(self):
+        payload = {
+            "fname": "John",
+            "lname": "Doe",
+            "phone": "+1234567890",
+            "bday": "1990-01-01"
+        }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
+        print(response.content)
+>       self.assertEqual(response.status_code, 201)
+E       AssertionError: 200 != 201
+
+/usr/local/tests/post_test.py:24: AssertionError
+----------------------------- Captured stdout call -----------------------------
+b'{"success":true}'
+_______________ TestAPI.test_get_request_400_with_invalid_number _______________
+
+self = <post_test.TestAPI testMethod=test_get_request_400_with_invalid_number>
+
+    def test_get_request_400_with_invalid_number(self):
+        payload = {
+            "fname": "John",
+            "lname": "Doe",
+            "phone": "1234567890",
+            "bday": "1990-01-01"
+        }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
+>       self.assertEqual(response.status_code, 400)
+E       AssertionError: 200 != 400
+
+/usr/local/tests/post_test.py:47: AssertionError
+__________________ TestAPI.test_get_request_400_with_missings __________________
+
+self = <post_test.TestAPI testMethod=test_get_request_400_with_missings>
+
+    def test_get_request_400_with_missings(self):
+        payload = {
+            "fname": "John",
+            "lname": "Doe",
+            "phone": "+1234567890"
+        }
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.post(self.base_url, json=payload, headers=self.headers, verify=False)
+        print(response.content)
+>       self.assertEqual(response.status_code, 400)
+E       AssertionError: 200 != 400
+
+/usr/local/tests/post_test.py:36: AssertionError
+----------------------------- Captured stdout call -----------------------------
+b"<br />\n<b>Fatal error</b>:  Uncaught mysqli_sql_exception: Field 'bday' doesn't have a default value in /var/www/localhost/htdocs/index.php:99\nStack trace:\n#0 /var/www/localhost/htdocs/index.php(99): mysqli-&gt;query('INSERT INTO pho...')\n#1 /var/www/localhost/htdocs/index.php(128): postData(Object(mysqli), Array)\n#2 {main}\n  thrown in <b>/var/www/localhost/htdocs/index.php</b> on line <b>99</b><br />\n"
+=========================== short test summary info ============================
+FAILED ../../../../usr/local/tests/post_test.py::TestAPI::test_create_entity - AssertionError: 200 != 201
+FAILED ../../../../usr/local/tests/post_test.py::TestAPI::test_get_request_400_with_invalid_number - AssertionError: 200 != 400
+FAILED ../../../../usr/local/tests/post_test.py::TestAPI::test_get_request_400_with_missings - AssertionError: 200 != 400
+============================== 3 failed in 0.11s ===============================
+[8mha:////4M1OzqW6vtqiTNZC5FN7QQDBaVbCllpoQ0AyES88UZEiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+ERROR: POST request server test stage was unstable.
+ERROR: script returned exit code 1
+[8mha:////4JbtGOvlOsCLFEyTwXk4Fncx3LS+bAO/vOxchEA8ddryAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // warnError
+[8mha:////4CIfdU2NStmIaSCWDiqow2WcPGGGooW3gYRZXd+jB1bSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8nuLWa+AAAA[0m[Pipeline] }
+[8mha:////4KCoH9waLbF/w1/Tp0jsydDc4+9lgo1p4zV22AY4Z08WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN4psfOC+AAAA[0m[Pipeline] // script
+[8mha:////4MTthx715CXM8ptjibrZeVVwNTFOw6Y/j3LBBu9S2uECAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6CJEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP0hU0Xm+AAAA[0m[Pipeline] }
+[8mha:////4JF/nfiSx1e5ipFMRD9BgFAATTYw/QnaTd65CPt/ITSqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+iPq6PvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KjJgBCugdkg6wyqT2bLq5H44V3Di4Df6/YcG65hMTneAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4PuRQBy3xeMGe1A9NPlG9nvq7U+SYIeQawcj71vYpRWPAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (PUT request server test)
+[8mha:////4G0QKrdl+SsZYNqGcQxUiS7ym/g+SWwE4TMZZ3Z0oU6QAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] script
+[8mha:////4FbHNXYFzcFGuU240l25EJcL0qxRWQc/97pdLRQK8IARAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4EJI//Hbjq86He4h/X+5ze7AH/+Pkn57q19ULLxmI8KCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] warnError
+[8mha:////4ORM7YtFnYj4Uy2qn/xeqyyRTbtiN+FMmOEOtjaEE61vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4FPHd386jCh64/z2o/+erJOnxI2QBkCuwdudf9WmGeusAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
++ pytest /usr/local/tests/put_test.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.2, pytest-7.3.1, pluggy-1.0.0
+rootdir: /usr/local/tests
+collected 2 items
+
+../../../../usr/local/tests/put_test.py FF                               [100%]
+
+=================================== FAILURES ===================================
+___________________________ TestAPI.test_put_request ___________________________
+
+self = <put_test.TestAPI testMethod=test_put_request>
+
+    def test_put_request(self):
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        updated_person = {"id": 1, "fname": "Jane", "lname": "Doe", "phone": "+0987654321", "bday": "1990-01-01"}
+        response = requests.put(f"{self.base_url}/", headers=self.headers, json=updated_person, verify=False)
+>       self.assertEqual(response.status_code, 202)
+E       AssertionError: 200 != 202
+
+/usr/local/tests/put_test.py:18: AssertionError
+________________________ TestAPI.test_put_request_error ________________________
+
+self = <put_test.TestAPI testMethod=test_put_request_error>
+
+    def test_put_request_error(self):
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        updated_person = {"id": 1, "fname": "Jane", "lname": "Doe", "phone": "11110987654321", "bday": "19900111"}
+        response = requests.put(f"{self.base_url}/", headers=self.headers, json=updated_person, verify=False)
+>       self.assertEqual(response.status_code, 400)
+E       AssertionError: 200 != 400
+
+/usr/local/tests/put_test.py:29: AssertionError
+=========================== short test summary info ============================
+FAILED ../../../../usr/local/tests/put_test.py::TestAPI::test_put_request - AssertionError: 200 != 202
+FAILED ../../../../usr/local/tests/put_test.py::TestAPI::test_put_request_error - AssertionError: 200 != 400
+============================== 2 failed in 0.09s ===============================
+[8mha:////4FG62Rzs59mOtp65OtmGNJDRx5RTfQcLLFuVQp6EoO0fAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+ERROR: PUT request server test stage was unstable.
+ERROR: script returned exit code 1
+[8mha:////4HMrL45G9mpBsiAtmewumwhN7WCL5r6JRCbP7DzUf8o3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // warnError
+[8mha:////4BY1rTYe7iE/vNtnywZxW6wUhRk85rjEunfNrS8crNEOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP4UuiXG+AAAA[0m[Pipeline] }
+[8mha:////4NaMiYo1ax1AAu+Qp1QVs12+wYpeWesXjjLd4v5dCpe/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4NosSS+AAAA[0m[Pipeline] // script
+[8mha:////4FDMwH4sc2u1YeY56HkMRmtvE0A/8+wYHd0zlJt+SggFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP7sqItW+AAAA[0m[Pipeline] }
+[8mha:////4FS1HfuMwZbA2n46bQIeeCu3bHdbRiyuaGLrLzl8dG5bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP6Sod4e+AAAA[0m[Pipeline] // stage
+[8mha:////4EkV5vJkLaizV0VUAdHochNaAVemOLLjTNrwgYkgUfZCAAAApR+LCAAAAAAAAP9tjTEOgkAURAcMha2lh1gaOmNlu6HxBCus6+Lmf9z9CJUn8mreQZTEyqnmTTJ5zxeKFLHn6FRn6eopNV71YXBzUyPH6znwqDo+qYYpcbCqtmPNrT0sWLNYLMlyrDTWlprAyZMTbHRn7qYMhlx5lDhvO43ctzc8kOnZLCbKF6aI7WVoE9PP81eAqRdklSCvqs+xeAMHiYOYwQAAAA==[0m[Pipeline] stage
+[8mha:////4JXUaSaBTyCfN7jAhAVh0et1AUOrn/2K8UPNCCMJUsPmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (DELETE request server test)
+[8mha:////4CfPT4pHj8QMAV1ZlRyfovf5lrVYPM1b+ol9Zcav5TPXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] script
+[8mha:////4EeJYLV5GLZ+SOeu1Zgqmjcel8vxFvpXHzJZrbcGsdh3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4FP00u6KMOgXlU5FyXTs0Wd2WwYTz4O6QARnccLd9CdsAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] warnError
+[8mha:////4KVzS3jOM4riKqj5WnwYyVxbN9l+GUxQ7GNadcI1ZzObAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4IxjDzcAAFZ4ya6yYROJR2JLvg89WzJ+Oiq/nl4l1pMbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] sh
++ pytest /usr/local/tests/delete_test.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.2, pytest-7.3.1, pluggy-1.0.0
+rootdir: /usr/local/tests
+collected 2 items
+
+../../../../usr/local/tests/delete_test.py FF                            [100%]
+
+=================================== FAILURES ===================================
+_______________________ TestAPI.test_delete_deleted_item _______________________
+
+self = <delete_test.TestAPI testMethod=test_delete_deleted_item>
+
+    def test_delete_deleted_item(self):
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.delete(f"{self.base_url}/?id=1", headers=self.headers, verify=False)
+>       self.assertEqual(response.status_code, 404)
+E       AssertionError: 200 != 404
+
+/usr/local/tests/delete_test.py:25: AssertionError
+_________________________ TestAPI.test_delete_request __________________________
+
+self = <delete_test.TestAPI testMethod=test_delete_request>
+
+    def test_delete_request(self):
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.delete(f"{self.base_url}/?id=1", headers=self.headers, verify=False)
+>       self.assertEqual(response.status_code, 202)
+E       AssertionError: 200 != 202
+
+/usr/local/tests/delete_test.py:16: AssertionError
+=========================== short test summary info ============================
+FAILED ../../../../usr/local/tests/delete_test.py::TestAPI::test_delete_deleted_item - AssertionError: 200 != 404
+FAILED ../../../../usr/local/tests/delete_test.py::TestAPI::test_delete_request - AssertionError: 200 != 202
+============================== 2 failed in 0.08s ===============================
+[8mha:////4MVRKw4GENRQk6SpQGwK6XxnPwRFP1SMTeYdY21+ZvpuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA7hxSLb4AAAA=[0m[Pipeline] }
+ERROR: DELETE request server test stage was unstable.
+ERROR: script returned exit code 1
+[8mha:////4BhX8Cszhvqr77IEP3RUxyWyVi+ELtoMVsX49nXz1QIAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] // warnError
+[8mha:////4K4BsPcuimX5SixXGetjZkgjOQBvHyhmCRvM9RF8TmhxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/ikCKHvgAAAA==[0m[Pipeline] }
+[8mha:////4He5E870I9zlRK44Xeuc2Q3deS6Fvs3zkdbz18Yhsof4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPsyQIO2+AAAA[0m[Pipeline] // script
+[8mha:////4DaYHNj+PxF/xjnUer7KNyre4iDBcylybDNTD1SxlOvnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpSIWoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79ANMSdb++AAAA[0m[Pipeline] }
+[8mha:////4NUsuGWWMKDYchc0fHiJBwH5DGujho2srNy3fIsa7guMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP+tQ5k6+AAAA[0m[Pipeline] // stage
+[8mha:////4DtC+Z7hvwKMjFT1BeHTJ8n6dURFBE4nMMxDutHv7/vHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPg7X0+70AAAA=[0m[Pipeline] }
+[8mha:////4LxAk7O2T81rcik7s2lrGdjRcmsVZDtXEk/7bqauqFN7AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A/G3wOe9AAAA[0m[Pipeline] // node
+[8mha:////4HQ+e1rKBQ4CtOcdtR9RZKIP97rXtRGb/RHcDQHyhhuJAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A9eup629AAAA[0m[Pipeline] End of Pipeline
+Finished: UNSTABLE

@@ -1,9 +1,7 @@
 FROM php:7-fpm-alpine AS not_configured 
-#./configure --prefix=/usr/local/php5.6.2/ --libexecdir=/usr/local/php5.6.2/libexec
 ARG PHP_VERSION=5.4.16
 
 USER root
-#RUN docker-php-ext-install mysqli -j$(nproc) mbstring
 RUN apk add --update --no-cache \
 	imagemagick \
 	imagemagick-dev \
@@ -34,7 +32,6 @@ RUN apk add --update --no-cache \
         sqlite \
 	libxml2-dev \
 	build-base \
-	#php7-mysqli \ 
     apache2-utils &&\
     update-ca-certificates
 

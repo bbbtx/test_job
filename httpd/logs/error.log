@@ -188,3 +188,5 @@ PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php7/modules
 [Tue Jun 06 08:20:41.941880 2023] [cgid:crit] [pid 8] AH01238: cgid daemon failed to initialize
 [Tue Jun 06 11:24:13.267740 2023] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.56 (Unix) PHP/8.2.3 configured -- resuming normal operations
 [Tue Jun 06 11:24:13.267779 2023] [core:notice] [pid 8] AH00094: Command line: 'httpd'
+[Tue Jun 06 19:10:08.788441 2023] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.56 (Unix) PHP/8.2.3 OpenSSL/1.1.1u configured -- resuming normal operations
+[Tue Jun 06 19:10:08.788467 2023] [core:notice] [pid 8] AH00094: Command line: 'httpd'

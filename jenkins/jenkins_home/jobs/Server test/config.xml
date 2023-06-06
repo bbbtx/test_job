@@ -17,30 +17,46 @@
     agent any
 
     stages {
+        
         stage(&apos;GET request server test&apos;) {
             steps {
-                sh &apos;python3 /usr/local/tests/get_test.py -v&apos;
+                script {
+                    warnError(message: &quot;${STAGE_NAME} stage was unstable.&quot;, catchInterruptions: false) {
+                        sh &apos;pytest /usr/local/tests/get_test.py&apos; 
+                    }
+                }
             }
         }
         stage(&apos;POST request server test&apos;) {
             steps {
-                sh &apos;python3 /usr/local/tests/post_test.py&apos;
+                script {
+                    warnError(message: &quot;${STAGE_NAME} stage was unstable.&quot;, catchInterruptions: false) {
+                        sh &apos;pytest /usr/local/tests/post_test.py&apos; 
+                    }
+                }
             }
         }
         stage(&apos;PUT request server test&apos;) {
             steps {
-                sh &apos;python3 /usr/local/tests/put_test.py&apos;
+                script {
+                    warnError(message: &quot;${STAGE_NAME} stage was unstable.&quot;, catchInterruptions: false) {
+                        sh &apos;pytest /usr/local/tests/put_test.py&apos; 
+                    }
+                }
             }
         }
         stage(&apos;DELETE request server test&apos;) {
             steps {
-                sh &apos;python3 /usr/local/tests/delete_test.py&apos;
-            }
+                script {
+                    warnError(message: &quot;${STAGE_NAME} stage was unstable.&quot;, catchInterruptions: false) {
+                        sh &apos;pytest /usr/local/tests/delete_test.py&apos; 
+                    }
+                }
             
+            }
         }
     }
-}
-</script>
+}</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>
