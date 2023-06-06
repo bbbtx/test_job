@@ -1,4 +1,5 @@
 <?php
+
 // Данные для подключения к базе данных
 $host = getenv("MYSQL_SERVER");
 $username = getenv("MYSQL_USER");
@@ -8,7 +9,11 @@ $database = getenv("MYSQL_DATABASE");
 // Открываем файл с sql-запросами для чтения
 while(true){
 	try {
-		$connection = mysqli_connect($host, $username, $password, $database);
+		$connection = new  mysqli($host, $username, $password, $database);
+		if (mysqli_connect_errno()) {
+  		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+		  exit();
+		}
 		break;
 	} catch (Exception $e) {
 		continue;

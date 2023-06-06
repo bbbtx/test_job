@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1308.v58d48a_763b_31">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2133.ve46a_6113dfc3"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2133.ve46a_6113dfc3">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>Pipeline for testing API server</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3673.v5b_dd74276262">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;GET request server test&apos;) {
+            steps {
+                sh &apos;python3 /usr/local/tests/get_test.py -v&apos;
+            }
+        }
+        stage(&apos;POST request server test&apos;) {
+            steps {
+                sh &apos;python3 /usr/local/tests/post_test.py&apos;
+            }
+        }
+        stage(&apos;PUT request server test&apos;) {
+            steps {
+                sh &apos;python3 /usr/local/tests/put_test.py&apos;
+            }
+        }
+        stage(&apos;DELETE request server test&apos;) {
+            steps {
+                sh &apos;python3 /usr/local/tests/delete_test.py&apos;
+            }
+            
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

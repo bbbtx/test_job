@@ -1,11 +1,16 @@
-FROM alpine:3.6 AS not_configured
-
+FROM php:7-fpm-alpine AS not_configured 
+#./configure --prefix=/usr/local/php5.6.2/ --libexecdir=/usr/local/php5.6.2/libexec
 ARG PHP_VERSION=5.4.16
 
+USER root
+#RUN docker-php-ext-install mysqli -j$(nproc) mbstring
 RUN apk add --update --no-cache \
 	imagemagick \
 	imagemagick-dev \
 	libtool \
+	apache2-ssl \
+	oniguruma \
+	oniguruma-dev \
 	autoconf \
 	libressl \
 	libressl-dev \
@@ -26,13 +31,19 @@ RUN apk add --update --no-cache \
 	libpng \
 	libpng-dev \
 	libjpeg \
+        sqlite \
+	libxml2-dev \
+	build-base \
+	#php7-mysqli \ 
     apache2-utils &&\
     update-ca-certificates
 
-RUN curl https://www.php.net/distributions/php-8.2.3.tar.gz -o /tmp/php-${PHP_VERSION}.tar.gz \
+RUN docker-php-ext-install mysqli -j$(nproc) mbstring
+
+RUN curl https://www.php.net/distributions/php-8.2.3.tar.gz -o /tmp/php-5.4.16.tar.gz \
 	&& cd /tmp \
-	&& gunzip /tmp/php-${PHP_VERSION}.tar.gz \
-	&& tar -xf /tmp/php-${PHP_VERSION}.tar 
+	&& gunzip /tmp/php-5.4.16.tar.gz \
+	&& tar -xf /tmp/php-5.4.16.tar 
 COPY install /tmp/
 
 FROM not_configured AS dev
@@ -42,18 +53,18 @@ ARG PHP_OPTIONS="--enable-mbstring --with-curl=/usr/lib --with-apxs2=/usr/bin/ap
 ARG HTTP_USER="tom"
 ARG HTTP_PASSWORD="newuser"
 
-RUN ./tmp/php-${PHP_VERSION}/configure ${PHP_OPTIONS} && \
+RUN  cd /tmp/php-8.2.3 && ./configure $PHP_OPTIONS && \
     make &&\
     make install
 
-RUN cp /tmp/php${PHP_VERSION}.ini /usr/local/lib/php.ini &&\
+RUN cp /tmp/php8.2.3.ini /usr/local/etc/php.ini &&\
     cp /tmp/httpd.conf /etc/apache2/httpd.conf &&\
     mkdir -p /var/www/localhost/htdocs && \
     ln -s /var/www/localhost/htdocs /htdocs &&\
     ln -s /var/www/logs /htlogs &&\
     ln -s /var/www/localhost/cgi-bin /htcgi &&\
     chown -R apache:apache /var/log/apache2 && \
-    mkdir /run/apache2 && \
+    #mkdir /run/apache2 && \
     chown apache:apache /run/apache2 \
 	&&\
 	cd /tmp &&\
@@ -75,3 +86,4 @@ RUN apk del libressl-dev apache2-dev gcc g++ libxml2-dev curl-dev zlib-dev vim\
     && sed -E 's/\/bin\/[a-z]*sh/\/sbin\/nologin/g' -i /etc/passwd
 
 USER apache
+

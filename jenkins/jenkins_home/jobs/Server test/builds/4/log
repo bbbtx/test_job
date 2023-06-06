@@ -1,0 +1,10 @@
+Started by user [8mha:////4E03QvwtxqvGa5BCqDHB3alfls3sfLHSSJCl8ljOc63AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git into /var/jenkins_home/workspace/asd@script/5d83f5d368bd08e39a232a5625734037df80364eb6e9ce702a92cbb598cf52da to read /asd.py
+The recommended git tool is: NONE
+No credentials specified
+Seen 0 remote branches
+ > git show-ref --tags -d # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

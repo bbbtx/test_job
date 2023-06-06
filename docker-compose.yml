@@ -17,6 +17,7 @@ services:
     volumes:
       - ./db:/var/lib/mysql
       - ./dbserver/mysql.conf.d:/etc/mysql/mysql.conf.d
+      
 
   front.test:
     build:
@@ -64,3 +65,24 @@ services:
       - front.test
     volumes:
       - ./client:/app
+
+
+  jenkins:
+    build:
+      context: ./jenkins
+      dockerfile: ./Dockerfile
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    container_name: jenkins-lts
+    networks:
+      default:
+        aliases:
+          - front.test
+    volumes:
+      - ./jenkins/jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./tests:/usr/local/tests
